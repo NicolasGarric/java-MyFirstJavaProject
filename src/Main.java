@@ -32,35 +32,61 @@ public class Main {
 //
 //
 
-        // Apprentissage du scanner || entrée de texte
+//        // Apprentissage du scanner || entrée de texte
+//
+//        Scanner scanner = new Scanner (System.in);
+//
+//        System.out.print("Enter your name: ");
+//        String name = scanner.nextLine();
+//
+//        System.out.print("Enter your age: ");
+//        int age = scanner.nextInt();
+//        // Bonne pratique. Appeler la next line pour garder en mémoire la bonne donnée.
+//        scanner.nextLine();
+//
+//        System.out.print("What is your GPA?: ");
+//        double gpa = scanner.nextDouble();
+//
+//        System.out.print("Are you a student? (true/false): ");
+//        boolean isStudent = scanner.nextBoolean();
+//
+//        System.out.println("Hello " + name + " :)");
+//        System.out.println("You are " + age + " years old and your GPA is: " + gpa);
+//
+//        // If statment for student type
+//        if (isStudent){
+//            System.out.println("You are one of our students :)");
+//        } else {
+//            System.out.println("You are NOT one of our students!!!");
+//        }
+//
+//        scanner.close();
 
-        Scanner scanner = new Scanner (System.in);
 
-        System.out.print("Enter your name: ");
-        String name = scanner.nextLine();
+//        // Calculate area of a rectangle
+//
+//        double width = 0;
+//        double height = 0;
+//        double area = 0;
+//
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.print("Enter the width: ");
+//        width = scanner.nextDouble();
+//
+//        System.out.print("Enter the height: ");
+//        height = scanner.nextDouble();
+//
+//        area = width * height;
+//        System.out.println("Area is: " + area + "cm²");
+//
+//        scanner.close();
+//
+//        // Pour créer une entrée de texte en Java il faut faire appel à un Scanner (object)
+//        // + ne pas oublier de le fermer à la fin avec un scanner.close();
 
-        System.out.print("Enter your age: ");
-        int age = scanner.nextInt();
-        // Bonne pratique. Appeler la next line pour garder en mémoire la bonne donnée.
-        scanner.nextLine();
 
-        System.out.print("What is your GPA?: ");
-        double gpa = scanner.nextDouble();
 
-        System.out.print("Are you a student? (true/false): ");
-        boolean isStudent = scanner.nextBoolean();
-
-        System.out.println("Hello " + name + " :)");
-        System.out.println("You are " + age + " years old and your GPA is: " + gpa);
-
-        // If statment for student type
-        if (isStudent){
-            System.out.println("You are one of our students :)");
-        } else {
-            System.out.println("You are NOT one of our students!!!");
-        }
-
-        scanner.close();
     }
 }
 
