@@ -113,6 +113,34 @@ public class Main {
 //
 //        scanner.close();
 
+//        // Arithmetic Opérators
+//
+//        int x = 10;
+//        int y = 2;
+//        int z;
+//
+////        z = x + y;
+////        z = x - y;
+////        z = x * y;
+////        z = x / y;
+////        z = x % y; // modulus opérator pour savoir si il reste ou non un entier après division.
+////        // pratique pour savoir si le nombre est pair ou non.
+//
+//        // Fonctionne aussi avec des Augmented Assignment Operators --> x += y; -=; *=; /=; %=;
+//
+//        // x++; and x--; fonctionne pour + ou - 1
+//
+//
+//
+//        // ORDER OF OPERATIONS [ P - E - M - D - A - S ]
+//        // Parentesis Exponents Multiplications Divisions Additions Soustactions
+//        // Please Excuse My Dope Ass Swag
+//
+//        double result = 0.0
+//
+//        System.out.println(result);
+
+
 
     }
 }
