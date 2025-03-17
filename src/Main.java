@@ -36,13 +36,29 @@ public class Main {
 
         Scanner scanner = new Scanner (System.in);
 
-        System.out.println("Enter your name: ");
+        System.out.print("Enter your name: ");
         String name = scanner.nextLine();
 
-        System.out.println("Enter your age: ");
-        String age = scanner.nextLine();
+        System.out.print("Enter your age: ");
+        int age = scanner.nextInt();
+        // Bonne pratique. Appeler la next line pour garder en mémoire la bonne donnée.
+        scanner.nextLine();
+
+        System.out.print("What is your GPA?: ");
+        double gpa = scanner.nextDouble();
+
+        System.out.print("Are you a student? (true/false): ");
+        boolean isStudent = scanner.nextBoolean();
 
         System.out.println("Hello " + name + " :)");
+        System.out.println("You are " + age + " years old and your GPA is: " + gpa);
+
+        // If statment for student type
+        if (isStudent){
+            System.out.println("You are one of our students :)");
+        } else {
+            System.out.println("You are NOT one of our students!!!");
+        }
 
         scanner.close();
     }
