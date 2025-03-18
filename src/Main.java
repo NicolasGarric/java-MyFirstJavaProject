@@ -212,7 +212,7 @@ public class Main {
 //
 //        scanner.close();
 //
-//        // RANDOM
+//        // RANDOM NUMBERS
 //
 //        Random random = new Random();
 //
@@ -255,6 +255,69 @@ public class Main {
 //        }
 
 
+
+        // MATH
+
+//        System.out.println(Math.PI);
+//        System.out.println(Math.E);
+
+        double result;
+
+//        result = Math.pow(2, 3); // 2 puissance 3
+//        result = Math.abs(-5); // absolute value
+//        result = Math.sqrt(9); // division par entiers
+//        result = Math.round(3.14);
+//        result = Math.ceil(3.14);
+//        result = Math.floor(3.99);
+//        result = Math.min(2, 1000);
+//        result = Math.max(2, 1000);
+//        System.out.println(result);
+//
+//        // MATH HYPOTENUSE EXERCICE - c = Math.sqrt(a^2 + b^2)
+//
+//        Scanner scanner = new Scanner(System.in);
+//
+//        double a;
+//        double b;
+//        double c;
+//
+//        System.out.print("Enter the length of side A: ");
+//        a = scanner.nextDouble();
+//
+//        System.out.print("Enter the length of side B: ");
+//        b = scanner.nextDouble();
+//
+////        System.out.println(a);
+////        System.out.println(b);
+//
+//        c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+//
+//        System.out.println("The hypotenuse (side c) is: " + c + "cm.");
+//
+//        scanner.close();
+//
+//        // MATH CERCLE EXERCICE
+//
+//        Scanner scanner = new Scanner(System.in);
+//
+//        double radius;
+//        double circumference;
+//        double area;
+//        double volume;
+//
+//        System.out.print("Enter the radius: ");
+//        radius = scanner.nextDouble();
+//
+//        circumference = 2 * Math.PI * radius;
+//        area = Math.PI * Math.pow(radius, 2);
+//        volume = (4.0 / 3.0) * Math.PI * Math.pow(radius, 3);
+//
+//        // %.1f pour ne prendre qu'une décimale + cm + retour à la ligne avec \n
+//        System.out.printf("The circumference is: %.1fcm\n", circumference);
+//        System.out.printf("The area is: %.1fcm²\n", area);
+//        System.out.printf("The volume is: %.1fcm³\n", volume);
+//
+//        scanner.close();
 
 
 
