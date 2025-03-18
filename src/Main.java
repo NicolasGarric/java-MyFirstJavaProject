@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 
 public class Main {
 
@@ -210,6 +211,50 @@ public class Main {
 //        }
 //
 //        scanner.close();
+//
+//        // RANDOM
+//
+//        Random random = new Random();
+//
+//        int number1;
+//        int number2;
+//        int number3;
+//
+//
+//        number1 = random.nextInt(1, 101);
+//        number2 = random.nextInt(1, 101);
+//        number3 = random.nextInt(1, 101);
+//
+//        System.out.println(number1);
+//        System.out.println(number2);
+//        System.out.println(number3);
+//
+//        // WITH DOUBLES
+//        double number4;
+//        double number5;
+//        double number6;
+//
+//        number4 = random.nextDouble(1, 101);
+//        number5 = random.nextDouble(1, 101);
+//        number6 = random.nextDouble(1, 101);
+//
+//        System.out.println(number4);
+//        System.out.println(number5);
+//        System.out.println(number6);
+//
+//        // BOOLEAN
+//
+//        boolean isHeads;
+//
+//        isHeads = random.nextBoolean();
+//
+//        if (isHeads){
+//            System.out.println("It's Heads! :)");
+//        } else {
+//            System.out.println("Yep... it's tails...");
+//        }
+
+
 
 
 
